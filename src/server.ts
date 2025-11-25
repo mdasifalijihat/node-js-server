@@ -48,7 +48,6 @@ const server: Server = http.createServer(
           const parseBody = JSON.parse(body);
           console.log(parseBody);
           res.end(JSON.stringify(parseBody));
-          console.log("chating logi current changes");
         } catch (err: any) {
           console.log(err?.message);
         }
