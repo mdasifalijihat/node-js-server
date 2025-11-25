@@ -24,33 +24,6 @@ const server: Server = http.createServer(
         })
       );
     }
-
-    // post route
-    //     if (req.url === "/api/users" && req.method == "POST") {
-    //       // const user = {
-    //       //         id: 1,
-    //       //         name: "Asif",
-    //       //         email: "asifali@gmail.com"
-    //       // }
-    //       // res.writeHead(200, {"content-type" : "application/json"});
-    //       // res.end(JSON.stringify(user))
-
-    //       let body = "";
-
-    //       req.on("data", (chunk) => {
-    //         body += chunk.toString();
-    //       });
-
-    //       req.on("end", () => {
-    //         try {
-    //           const parseBody = JSON.parse(body);
-    //           console.log(parseBody);
-    //           res.end(JSON.stringify(parseBody));
-    //         } catch (err: any) {
-    //           console.log(err?.message);
-    //         }
-    //       });
-    //     }
   }
 );
 
